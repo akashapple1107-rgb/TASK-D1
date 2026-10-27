@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.vite/
+.env
+.env.*
+!.env.example
+secrets/
+
+.env
+.env.*
+!.env.example
+secrets/
+node_modules/
+dist/

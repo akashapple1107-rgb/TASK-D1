@@ -1,0 +1,22 @@
+Firestore evidence for D1
+
+Open: https://console.firebase.google.com/project/task-p4-devdeakin-d7a76/firestore/databases/-default-/data
+
+USERS collection
+Free account: d1.free.20261027@example.test
+Document: 76c90eeb9f6c67f008944653f37d9ed04a75e6da5b0ad95634e4a1ce4db99736
+Expected plan: free
+
+Paid account: d1.upgrade.20261027@example.test
+Document: e176c8acf87874812326d7fd059c09855a59fdd4fec802e2e5c6b51eb1d4b92e
+Expected plan: paid; upgradedAt is present
+Show name, email, plan and createdAt in your screenshot. Passwords are hashed; do not expose service-account keys or JWT secrets.
+
+POSTS collection
+Question document: 168RTLgfAvyJmWvG5f5e
+Title: How do React components share login state?
+
+Article document: uX9plcwyYmPcyoP228Z4
+Title: Managing subscriptions in DEV@Deakin
+
+Insert the screenshots into the Firestore evidence section of SIT313-D1-Report.docx. Also add your student ID, GitLab repository link and Panopto video link.

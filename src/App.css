@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Main title */
+
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+
+/* Newsletter */
+
+.newsletter {
+    background-color: #eeeeee;
+    padding: 15px;
+    text-align: center;
+}
+
+.newsletter h2 {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.newsletter input {
+    padding: 8px;
+    width: 200px;
+}
+
+.newsletter button {
+    padding: 8px 15px;
+    margin-left: 5px;
+}
+
+
+/* Sections */
+
+.content-section {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.content-section h2 {
+    text-align: center;
+}
+
+
+/* Cards */
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.content-card {
+    width: 33%;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.content-card h3 {
+    margin-bottom: 5px;
+}
+
+.content-card p {
+    color: #555;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Buttons */
+
+.content-section button {
+    display: block;
+    margin: 20px auto;
+    padding: 8px 20px;
+    border: none;
+    background-color: #ddd;
+}
+
+
+/* Footer */
+
+.footer {
+    margin-top: 50px;
+    background-color: #008c95;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid white;
+}
